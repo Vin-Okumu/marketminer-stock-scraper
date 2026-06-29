@@ -1,5 +1,6 @@
-<img src="images/project_banner.png" width="100%">
 # MarketMiner: Yahoo Finance Stock Scraper
+
+<img src="images/project_banner.png" width="100%">
 
 ## Overview
 This project extracts stock market data from Yahoo Finance using Python and Beautiful Soup.
