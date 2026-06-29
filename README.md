@@ -1,3 +1,4 @@
+<img src="images/project_banner.png" width="100%">
 # MarketMiner: Yahoo Finance Stock Scraper
 
 ## Overview
@@ -28,8 +29,21 @@ marketminer-stock-scraper/
 │   └── sample_data/
 │       └── stock_sample.csv
 │
+├── images/
+│   └── project_banner.png
+|
 ├── notebooks/
 │   └── stock_scraping_analysis.ipynb
+│
+├── outputs/
+│   ├── charts/
+│   │   ├── gamestop_historical_revenue.png
+│   │   ├── gamestop_historical_share_price.png
+│   │   ├── tesla_historical_revenue.png
+│   │   └── tesla_historical_share_price.png
+│   │
+│   └── csv/
+│       └── sample_stock.csv
 │
 ├── src/
 │   ├── scrape.py
@@ -37,22 +51,10 @@ marketminer-stock-scraper/
 │   ├── clean.py
 │   └── utils.py
 │
-├── outputs/
-│   ├── charts/
-│   │   ├── stock_trend.png
-│   │   └── price_distribution.png
-│   │
-│   └── csv/
-│       └── processed_stock.csv
-│
-├── images/
-│   └── project_banner.png
-│
 ├── .gitignore
-├── requirements.txt
+├── main.py
 ├── README.md
-├── LICENSE
-└── main.py
+└── requirements.txtmain.py
 ```
 
 ## Sample Data
@@ -66,19 +68,19 @@ data/sample_data/
 ### Scraped Tesla Data
 #### Tesla Revenue Trend
 
-![Tesla Revenue Data](images/tesla_historical_revenue.png)
+![Tesla Revenue Data](outputs/charts/tesla_historical_revenue.png)
 
 #### Tesla Stock Price Trend
 
-![Tesla Stock Trend](images/tesla_historical_share_price.png)
+![Tesla Stock Trend](outputs/charts/tesla_historical_share_price.png)
 
 ### Scraped GameStop Data
 #### GameStop Revenue Trend
 
-![GameStop Revenue Data](images/gamestop_historical_revenue.png)
+![GameStop Revenue Data](outputs/charts/gamestop_historical_revenue.png)
 
 #### GameStop Stock Price Trend
-![GameStop Stock Trend](images/gamestop_historical_share_price.png)
+![GameStop Stock Trend](outputs/charts/gamestop_historical_share_price.png)
 
 ## Future Improvements
 
