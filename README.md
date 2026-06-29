@@ -1,24 +1,30 @@
-# MarketMiner: Yahoo Finance Stock Scraper using Beautiful Soup
+<h1 align = "center">
+MarketMiner: Yahoo Finance Stock Scraping <br>
+using Beautiful Soup
+</h1>
 
+<p align = "center">
 <img src="images/project_banner.png" width="100%">
+</p>
 
 ## Overview
+
 This project extracts stock market data from Yahoo Finance using Python and Beautiful Soup.
 
 ## Objectives
 
-- Retrieve stock information dynamically
-- Parse HTML content
-- Clean extracted data
-- Generate visualizations
+    - Retrieve stock information dynamically
+    - Parse HTML content
+    - Clean extracted data
+    - Generate visualizations
 
 ## Technologies
 
-- Python
-- Beautiful Soup
-- Requests
-- Pandas
-- Matplotlib
+    - Python
+    - Beautiful Soup
+    - Requests
+    - Pandas
+    - Matplotlib
 
 ## Repository Structure
 
@@ -85,6 +91,6 @@ data/sample_data/
 
 ## Future Improvements
 
-- Support multiple ticker symbols
-- Add Streamlit dashboard
-- Automate scheduled scraping
+    - Support multiple ticker symbols
+    - Add Streamlit dashboard
+    - Automate scheduled scraping

@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore all datasets
+data/*
+
+# Keep sample dataset
+!data/sample_data/
+
+# Ignore large generated outputs
+outputs/csv/*.csv
