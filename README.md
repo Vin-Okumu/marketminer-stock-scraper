@@ -63,8 +63,6 @@ data/sample_data/
 
 ## Outputs
 
-## Outputs
-
 ### Scraped Tesla Data
 #### Tesla Revenue Trend
 
