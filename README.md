@@ -1,4 +1,4 @@
-# MarketMiner: Yahoo Finance Stock Scraper
+# MarketMiner: Yahoo Finance Stock Scraper using Beautiful Soup
 
 <img src="images/project_banner.png" width="100%">
 
