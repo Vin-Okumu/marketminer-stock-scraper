@@ -73,21 +73,14 @@ data/sample_data/
 ## Outputs
 
 ### Scraped Tesla Data
-#### Tesla Revenue Trend
+#### Tesla Trend
 
-![Tesla Revenue Data](outputs/charts/tesla_historical_revenue.png)
-
-#### Tesla Stock Price Trend
-
-![Tesla Stock Trend](outputs/charts/tesla_historical_share_price.png)
+![Tesla Revenue Data](outputs/charts/tesla_historical_share_price_and_revenue.png)
 
 ### Scraped GameStop Data
-#### GameStop Revenue Trend
+#### GameStop Trend
 
-![GameStop Revenue Data](outputs/charts/gamestop_historical_revenue.png)
-
-#### GameStop Stock Price Trend
-![GameStop Stock Trend](outputs/charts/gamestop_historical_share_price.png)
+![GameStop Revenue Data](outputs/charts/gamestop_historical_share_price_and_revenue.png)
 
 ## Future Improvements
 
